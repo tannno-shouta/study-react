@@ -2,7 +2,7 @@ import React from "react"
 import styles from '../styles/Home.module.css'
 import Image from 'next/image'
 
-export default function Headline(props) {
+export function Headline(props) {
   return (
     <>
       <h1 className = {styles.title}>{props.title}</h1>
