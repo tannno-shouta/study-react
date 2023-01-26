@@ -5,11 +5,10 @@ import Image from 'next/image'
 export function Headline(props) {
   return (
     <>
-      <h1 className = {styles.title}>{props.title}</h1>
+      <h1 className = {styles.title}>{props.page}page</h1>
         <div className={styles.description}>
           <p>
-            Get started by editing&nbsp;
-            <code className={styles.code}>pages/{props.page}.js</code>
+            Get started by editing&nbsp; {props.children}
           </p>
         <div>
         <a
