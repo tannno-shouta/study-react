@@ -1,4 +1,4 @@
-import styles from '../styles/Home.module.css'
+import styles from './Links.module.css'
 import { Inter } from '@next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -13,10 +13,10 @@ export function Links() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h2 className={inter.className}>
+            <h3 className={styles.title} className={inter.className}>
               Docs <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
+            </h3>
+            <p className={styles.description} className={inter.className}>
               Find in-depth information about Next.js features and&nbsp;API.
             </p>
           </a>
@@ -27,10 +27,10 @@ export function Links() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h2 className={inter.className}>
+            <h3 className={styles.title} className={inter.className}>
               Learn <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
+            </h3>
+            <p className={styles.description} className={inter.className}>
               Learn about Next.js in an interactive course with&nbsp;quizzes!
             </p>
           </a>
