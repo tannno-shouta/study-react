@@ -3,7 +3,7 @@ import { Inter } from '@next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export function Links() {
+export const Links =()  =>{
   return (
     <div className={styles.grid}>
 
@@ -67,3 +67,5 @@ export function Links() {
     </div>
   );
 }
+
+export default Links;

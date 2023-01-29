@@ -1,7 +1,7 @@
-import Link from "next/link";
+import {Link} from "next/link";
 // import styles from './Header.module.css'
 
-export function Header() {
+export const Header = () => {
   return (
     <header>
       <Link href="/" legacyBehavior>
@@ -14,3 +14,5 @@ export function Header() {
     </header>
   );
 }
+
+export default Header;
