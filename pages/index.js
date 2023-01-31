@@ -1,12 +1,11 @@
 import styles from '../styles/Home.module.css'
-import Head from 'next/head'
-import { Footer } from '../components/Footer'
-import { Main } from '../components/Main'
-import { Header } from '../components/Header'
+import Head from 'next/head';
+import { Footer } from '../components/Footer';
+import { Main } from '../components/Main';
+import { Header } from '../components/Header';
 
-export function Home() {
+export default function Home() {
   return (
-    <>
     <div className={styles.container}>
       <Head>
         <title>Index Page</title>
@@ -18,6 +17,5 @@ export function Home() {
       <Main page="index" />
       <Footer />
     </div>
-    </>
   )
 }
