@@ -22,7 +22,7 @@
 
 .card:hover,
 .card:focus,
-.cord:active{
+.card:active{
   color: #0070f0;
   border-color: #0070f0;
 }
