@@ -1,4 +1,3 @@
-import React from "react"
 import styles from './Headline.module.css'
 
 export const Headline =(props) =>{
